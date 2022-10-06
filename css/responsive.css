@@ -1,0 +1,835 @@
+@media screen and (max-width: 1024px){
+	ul.top-nav li a {	    
+	    font-size: 14px;
+	    padding: 0 8px;	    
+	}
+	.countries a {	    
+	    font-size: 12px;	    
+	}
+	.testi-main {	    
+	    width: 60%;	    
+	}
+	.testimonail .owl-theme .owl-nav{
+		right: 21%;
+	}
+	.clients .owl-theme .owl-nav .owl-next{
+		right: -35px;
+	}
+	.clients .owl-theme .owl-nav .owl-prev{
+		left: -35px;
+	}
+
+	/*
+		oct 17
+	*/
+	.s-content strong {
+	    font-size: 18px;
+	}
+	.s-content p {
+	    font-size: 14px;	    
+	}
+}
+ @media screen and (max-width: 480px){
+
+        section.cs-dream{
+          background-image: url(../img/Dream_Force_mobile.jpg) !important;
+		  background-position: center -10px;   
+          background-size: cover;
+        }
+
+      }
+	 
+@media screen and (max-width: 991px){
+
+	/*
+		OCT 18
+	*/
+	a.link {
+	    margin-left: inherit;
+	}
+	.ai-main {
+	    margin: 30px auto 0;
+	}
+	.ai-content {
+	    margin: 0;
+	}
+	.product .owl-nav button.owl-prev {	   
+	    left: -40px;
+	}
+	.product .owl-nav button.owl-next {	    
+	    right: -40px;
+	}
+	/*
+		OCT 18 end
+	*/
+	header{
+		display: none;
+	}
+	section.about-banner {	    
+	    margin-top: -85px;	    
+	}	
+	section.home-banner{
+		margin-top:-85px; 
+	}
+	.testi-main {	    
+	    width: 80%;	    
+	}
+	.testimonail .owl-theme .owl-nav {
+	    right: 12%;
+	}
+	/*
+	    mobile-menu
+	*/
+	.mob-out-logo {
+	    position: absolute;
+	    background: #fff;
+	    left: 50%;
+	    transform: translate(-50%, 0px);
+	    padding: 15px 10px;
+	    border-radius: 0 0 10px 10px;
+	    display: block;
+	    text-align: center;
+	}
+	.sidenav {
+	  height: 100%;
+	  width: 0;
+	  position: fixed;
+	  z-index: 1;
+	  top: 0;
+	  left: 0;
+	  background-color: #f1f0f1;
+	  overflow-x: hidden;
+	  transition: 0.5s;
+	  padding-top: 60px;
+	  display: block;
+	  z-index: 9999;
+	}
+	.sidenav a {
+	  padding: 8px 8px 8px 32px;
+	  text-decoration: none;
+	  font-size: 25px;
+	  color: #818181;
+	  display: block;
+	  transition: 0.3s;
+	}
+	.sidenav a:hover {
+	  color: #f1f1f1;
+	}
+
+	.sidenav .closebtn {
+	  position: absolute;
+	  top: 0;
+	  right: 25px;
+	  font-size: 36px;
+	  margin-left: 50px;
+	}
+	.hamburger {
+    	font-size: 30px;
+	    cursor: pointer;
+	    color: #fff;
+	    display: inline-block;
+	    margin: 20px;
+	}
+	.sidenav .dropdown-toggle::after {
+	    content: "\f107";
+	    font: bold 20px/1 FontAwesome;
+	    display: inline-block;
+	    margin-left: 5px;
+	    border-top: none;
+	    border-right: none;
+	    border-bottom: 0;
+	    border-left: none;
+	    vertical-align: -2px;
+	}
+	.mob-logo {
+	    margin-bottom: 30px;
+	}
+	.mob-logo a {
+	    padding: 0 20px;
+	    display: block;
+	}
+	ul.side-menu li a {
+	    padding: 0 20px;
+	    font-size: 16px;
+	    color: #093679;
+	}
+	ul.side-menu li a:hover {
+	    color: #e2ac02;
+	}
+	ul.side-menu li {
+	    list-style: none;
+	    margin: 0 0 15px;
+	}
+	ul.side-menu {
+	    padding: 0;
+	    margin: 0;
+	}
+	ul.side-menu li a i {
+	    margin-right: 10px;
+	    color: #2482bf;
+	}
+	section.ourteam {
+	    height: auto;
+	    padding: 70px 0 50px;
+	}
+
+	/*
+		blogs
+	*/
+	.rt-content:before {	    
+	    display: none;	    
+	}
+
+	/*
+		career
+	*/
+	section.career-details p {	   
+	    margin: 15px 0 0;
+	}
+}
+@media screen and (max-width: 768px){
+	/*
+		oct 17
+	*/
+		section.home-banner {
+		    height: auto;
+		    padding: 120px 0 70px;
+		}
+		.carousel-control-prev, .carousel-control-next {
+		    bottom: -40px;
+		}
+		.carousel-item.active {
+		    flex-direction: column;
+		}
+		img.my-top {
+		    margin: 0 auto 30px;
+		    width: auto;
+		}
+		.carousel-caption {
+		    position: relative;
+		    left: 0;
+		}
+	/*
+		end oct 17
+	*/
+	/*
+		index
+	*/		
+		.carousel-caption {
+			z-index: 1;
+		}
+	
+		.carousel-indicators {
+   display: block;
+   z-index: 0;
+}
+		.carousel-indicators li{
+			display: none;
+		}
+		.carousel-control-prev {
+		    left: auto;		    
+		    top: auto;		    
+		    right: 70px;
+		    transform: rotate(270deg);
+		    width: 50px;
+		    height: 50px;
+		}
+		.carousel-control-next {
+		    left: auto;
+		    top: auto;		    
+		    right: 0;
+		    transform: rotate(270deg);
+		    width: 50px;
+		    height: 50px;
+		}
+		.carousel-control-prev i, .carousel-control-next i{
+			font-size: 44px;
+		}
+		.testi-main {		    
+		    width: 100%;
+		}
+		.testi-img {		    
+		    left: 0;
+		}
+		.testi-content{
+			margin: 0 0 20px 200px;
+		}
+		.testimonail .owl-theme .owl-nav {		    
+		    right: 15px;
+		    bottom: 15%;		    
+		}
+		.clients .owl-theme .owl-nav .owl-next{
+			right: -20px;
+		}
+		.clients .owl-theme .owl-nav .owl-prev{
+			left: -20px;
+		}
+		section.knowmore {
+		    padding: 50px 0px;
+		}
+		section.knowmore h2 {		    
+		    margin: 50px auto 20px;		    
+		}
+		section.knowmore p{
+			text-align: center;
+		}
+		section.knowmore a{
+			margin: 0 auto;
+			display: table;
+		}
+		section.wrds {
+		    padding: 50px 0px;
+		}
+		section.wrds h2 {
+		    margin: 0 auto 20px;
+		    display: table;
+		}
+		section.wrds p {
+		    text-align: center;
+		}
+		section.wrds a{
+			display: table;
+			margin: 0 auto 30px;
+		}
+		section.testimonail{
+			padding: 50px 0
+		}
+		section.clients {
+		    padding: 50px 0;
+		}
+		section.testimonail h2{
+			font-size: 30px;
+			margin: 0 auto 20px;
+		}
+	/*
+		end-index
+	*/
+	header{
+		display: none;
+	}
+	section.about-banner {	    
+	    margin-top: -85px;	    
+	}	
+	/*
+	    mobile-menu
+	*/
+	.mob-out-logo {
+	    position: absolute;
+	    background: #fff;
+	    left: 50%;
+	    transform: translate(-50%, 0px);
+	    padding: 15px 10px;
+	    border-radius: 0 0 10px 10px;
+	    display: block;
+	    text-align: center;
+	}
+	.sidenav {
+	  height: 100%;
+	  width: 0;
+	  position: fixed;
+	  z-index: 99 ;
+	  top: 0;
+	  left: 0;
+	  background-color: #f1f0f1;
+	  overflow-x: hidden;
+	  transition: 0.5s;
+	  padding-top: 60px;
+	  display: block;
+	}
+	.sidenav a {
+	  padding: 8px 8px 8px 32px;
+	  text-decoration: none;
+	  font-size: 25px;
+	  color: #818181;
+	  display: block;
+	  transition: 0.3s;
+	}
+	.sidenav a:hover {
+	  color: #f1f1f1;
+	}
+
+	.sidenav .closebtn {
+	  position: absolute;
+	  top: 0;
+	  right: 25px;
+	  font-size: 36px;
+	  margin-left: 50px;
+	}
+	.hamburger {
+    	font-size: 30px;
+	    cursor: pointer;
+	    color: #fff;
+	    display: inline-block;
+	    margin: 20px;
+	    z-index: 9;
+    	position: relative;
+	}
+	.mob-logo {
+	    margin-bottom: 30px;
+	}
+	.mob-logo a {
+	    padding: 0 20px;
+	    display: block;
+	}
+	ul.side-menu li a {
+	    padding: 0 20px;
+	    font-size: 16px;
+	    color: #093679;
+	}
+	ul.side-menu li a:hover {
+	    color: #e2ac02;
+	}
+	ul.side-menu li {
+	    list-style: none;
+	    margin: 0 0 15px;
+	}
+	ul.side-menu {
+	    padding: 0;
+	    margin: 0;
+	}
+	ul.side-menu li a i {
+	    margin-right: 10px;
+	    color: #2482bf;
+	}
+	section.ourteam {
+	    height: auto;
+	    padding: 70px 0 50px;
+	}
+	footer {	    
+	    padding: 0 0 20px;
+	}
+	.countries {
+    	padding: 0;
+	}
+	.countries a {
+	    font-size: 14px;
+	    display: block;
+	    text-align: center;
+	    padding: 10px 0;
+	    border-bottom: 1px solid #ececec;
+	    border-right: none;
+	    background: #f9f9f9;
+	}
+	.col-lg-4.social {
+	    margin: 20px auto;
+	}
+	.social a {	    
+	    width: 35px;
+	    height: 35px;	    
+	}
+	.mail {
+	    text-align: center;
+	    font-size: 14px;
+	}
+	section.copyright p {	    
+	    font-size: 14px;
+	}
+	footer .container {
+	    max-width: 100%;
+	}
+
+	/*
+		service
+	*/
+	section.service-main .col-lg-4:nth-last-child(-n+3) .s-content {
+	    margin: 20px 0;
+	}
+	.s-content strong {	    
+	    text-align: center;
+	    display: block;
+	    line-height: initial;
+	}
+	.s-content p {	    
+	    margin: 10px 0 0;
+	    text-align: center;
+	    display: block;
+	}
+	.cilents .tab-content .tab-pane .col-lg-3:nth-last-child(-n+4) a {
+	    margin:0 0 30px;
+	}
+	.cilents .tab-content .tab-pane .col-md-4:nth-last-child(-n+2) a {
+	    margin:0;
+	}
+	.address{
+		margin: 30px auto 0;
+	}
+
+	
+}
+
+@media screen and (max-width: 767px){	
+	section.work-cards article a {	    
+	    border: 1px solid #00000015;
+	}
+	.carousel-caption {		    
+	    width: 100%;
+	    left: 0;
+	    padding: 0;
+	    top: 0;
+	}
+	.carousel-caption h3 {
+	    font-size: 20px;
+	}
+	.carousel-caption p {
+	    font-size: 16px;
+	}
+	.testi-img {
+	    width: 150px;
+	    position: relative;
+	    top: 0;		    
+	    transform: none;
+	    margin: 0 auto;
+	}
+	.testi-content {
+	    margin: -75px auto 30px;
+	    padding: 100px 20px 20px;
+	    width: 96%;
+	}
+	.testi-main {
+	    width: 100%;
+	    background-image: none;
+	    padding: 0;
+	}
+	.testimonail .owl-theme .owl-nav {
+	    right: auto;
+	    bottom: -20px;
+	    left: 50%;
+	    transform: translate(-50%, 0px);
+	}
+	.testi-content p, .testi-content h3, .testi-content i{
+		text-align: center;
+		display: block;
+	}
+	.clients .owl-theme .owl-nav .owl-next {
+	    right: -50px;
+	}
+	.clients .owl-theme .owl-nav .owl-prev {
+	    left: -50px;
+	}
+	.client-main{
+		width: 100%;
+	}
+}
+
+@media screen and (max-width: 480px){
+	/*
+		index
+	*/
+		.carousel-caption {
+		    width: 100%;
+		    left: 0;
+		    padding: 0;
+		    top: 0;
+		    position: relative;
+		}
+		.carousel-caption h3 {
+		    font-size: 16px;
+		}
+		.carousel-caption p {
+		    font-size: 14px;
+		}
+		.carousel-control-prev, .carousel-control-next {		    
+		    width: 30px;
+		    height: 30px;
+		}
+		.carousel-control-prev{
+			right: 40px;
+		}
+		.carousel-control-prev i, .carousel-control-next i {
+		    font-size: 24px;
+		}
+		section.knowmore h2{
+			font-size: 30px;
+		}
+		section.knowmore h2 span{
+			font-size: 40px;
+		}
+		section.testimonail h2 {
+    		font-size: 30px;
+		    margin: 0 auto 20px;
+		}
+		section.testimonail h2 span {
+		    font-size: 40px;		    
+		}
+		.testi-img {
+		    width: 150px;
+		    position: relative;
+		    top: 0;		    
+		    transform: none;
+		    margin: 0 auto;
+		}
+		.testi-content {
+		    margin: -75px auto 30px;
+		    padding: 100px 20px 20px;
+		    width: 96%;
+		}
+		.testi-main {
+		    width: 100%;
+		    background-image: none;
+		    padding: 0;
+		}
+		.testimonail .owl-theme .owl-nav {
+		    right: auto;
+		    bottom: -20px;
+		    left: 50%;
+		    transform: translate(-50%, 0px);
+		}
+		.testi-content p, .testi-content h3, .testi-content i{
+			text-align: center;
+			display: block;
+		}
+		.testi-content p{
+			margin: 0 0 15px;
+		}
+		.testi-content h3{
+			font-size: 20px;
+    		line-height: 26px;
+		}
+		.testi-content i {		    
+		    font-size: 20px;
+		}
+		.clients .owl-theme .owl-nav .owl-next {
+		    right: 0;
+		}
+		.clients .owl-theme .owl-nav .owl-prev {
+		    left: 0;
+		}
+	/*
+		end-index
+	*/
+	section.main-content span {	    
+	    font-size: 18px;	    
+	    margin: 15px 0 5px;	    
+	}
+	section.main-content p {	    
+	    font-size: 16px;	    
+	}
+	.s-content strong {	    
+	    font-size: 18px;
+	}
+	.s-content p {	    
+	    font-size: 16px;
+	}
+	section.ourteam h2 {	    
+	    font-size: 34px;	    
+	}
+	section.ourteam h2 span {	    
+	    font-size: 40px;	    
+	}
+	section.service-main h2 {	    
+	    font-size: 30px;	   
+	}
+	section.service-main h2 span {	    
+	    font-size: 40px;	    
+	}	
+	section.cilents ul.nav.nav-tabs li:first-child a {
+	    padding: 15px 70px 15px 30px;
+	}
+	section.cilents ul.nav.nav-tabs li:last-child a {
+	    padding: 15px 30px 15px 70px;
+	}
+	section.cilents ul.nav.nav-tabs li a.active {	    
+	    padding: 15px 50px !important;
+	}
+	.cilents .tab-content .tab-pane .col-lg-3:nth-last-child(-n+4) a {
+	    margin:0 0 30px;
+	}
+	.cilents .tab-content .tab-pane .col-md-4:nth-last-child(-n+1) a {
+	    margin:0;
+	}
+
+	/*
+		blogs
+	*/
+	.blogs .owl-carousel .item {
+	    border-right: none;
+	}
+	section.blog-content h2 {	    
+	    font-size: 18px;	    
+	}
+	section.blog-content h6 {	    
+	    font-size: 15px;
+	}
+	section.blog-content h6 p i {
+	    margin: 0 10px 0 0;	   
+	}
+	section.blog-content h6 p a{
+		margin: 0 0 0 10px;	
+	}
+	.read-scl {	   
+	    margin: 20px 0;
+	}
+	.read {
+	    display: block;
+	    text-align: center;
+	    margin: 0 0 10px;
+	}
+	.scl {
+	    display: block;
+	    float: inherit;
+	    text-align: center;
+	}
+	.rt-content {
+	    padding: 30px;	  
+	}
+	.rt-content h5 {	    
+	    font-size: 18px;	    
+	}
+	.rt-content hr {	    
+	    margin: 15px 0px;	    
+	}
+	.right-bottom {	    	    
+	    padding: 10px;	   
+	}	
+
+	/*
+		career
+	*/
+	section.opening {    	
+	    padding: 50px 0 30px;
+	}
+	.open-detail {	    
+	    padding: 20px;	    
+	}
+	.open-detail h6 {	   
+	    margin: 15px 0 0;
+	}
+	section.opening h2 {
+	    font-size: 30px;
+	}
+	section.opening h2 span {
+	    font-size: 40px;
+	}
+
+	/*
+		contact-us
+	*/
+	.address {
+	    background-image: none;
+	    height: 100%;
+	    width: 100%;	    
+	    margin: 30px auto;	    
+	}
+	section.contact form {	    
+	    padding: 15px;
+	}
+	.contact-social {	    
+	    border-top: 1px solid #f4f4f4;	    
+	}
+
+	/*
+		clients
+	*/
+	div#Financial_Industry h2 {
+	    font-size: 20px;
+	    margin: 0 0 10px;
+	}
+	div#Financial_Industry h2 span {	    
+	    font-size: 32px;	    
+	}
+
+	/*
+		oct 17
+	*/
+	.s-content {
+	    margin: 20px 0 30px;
+	    text-align: center;
+	}
+	section.service-main .col-lg-6:nth-last-of-type(2) .s-content {
+	    margin: 20px 0 30px;
+	}
+	section.service-main .col-lg-6:last-child .s-content {
+	    margin: 20px 0 0;
+	}	
+	section.home-banner {	    
+	    height: auto;
+	    padding: 110px 0 40px;
+	}
+	.carousel-control-prev, .carousel-control-next {
+	    bottom: -30px;
+	}
+	.carousel-item.active {
+	    flex-direction: column;
+	}
+	img.my-top {
+	    margin: 0 auto 30px;
+	    width: 80%;
+	}
+
+	/*
+		oct 18
+	*/
+	section.consulting h2 {
+	    display: block;
+	}
+	section.consulting h2 img {
+	    margin: 0 0 15px;
+	}
+	section.consulting h2 span {
+	    font-size: 40px;
+	    margin: 0;
+	}
+	section.consulting h2 span b {
+	    font-size: 30px;
+	}
+
+	section.blockchain h2, section.ai h2 {
+	    display: block;
+	}
+	section.blockchain h2 img, section.ai h2 img {
+	    margin: 0 0 15px;
+	}
+	section.blockchain h2 span, section.ai h2 span {
+	    font-size: 40px;
+	    margin: 0;
+	}
+	section.blockchain h2 span b, section.ai h2 span b {
+	    font-size: 30px;
+	}
+	.product .owl-nav {
+	    right: auto;
+	    left: 50%;
+	    transform: translate(-50%, 0px);
+	    width: 30%;
+	    top: auto;
+	}	
+	.product .owl-nav button.owl-prev {	    
+	    left: 0;
+	}
+	.product .owl-nav button.owl-next {	    
+	    right: 0px;
+	}
+	.ai-main {
+	    background: none !important;
+	    padding: 30px 0;
+	}
+	.ai-content {
+	    width: 100%;
+	    margin: 0;
+	    box-shadow: none;
+	    padding: 0;
+	}
+	section.consulting p, .ai-content p, section.blockchain p {
+	    margin: 10px 0;
+	}
+	a.link {
+	    margin-left: inherit;
+	}
+	.carousel-caption a {    
+	    margin: 20px 0;
+	    transition: all 0.3s;
+	}
+	section.ai, section.consulting, section.blockchain {
+	    padding: 50px 0 0;
+	}
+	section.product {
+	    padding: 50px 0 50px;
+	}
+}
+
+
+
+/*
+	changes done on OCT 17:-:)
+	line:291, 259, 6;
+*/

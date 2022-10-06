@@ -1,0 +1,216 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <title> Nanostuffs | PWA Development</title>
+    <meta name="description"
+        content="Nanostuffs provides the best progressive web app development and design services with a high-performance and secure PWA. Services come with a 100% satisfaction guarantee.">
+    <meta name="keywords" content="PWA, mobile application, Standalone app, react, android apps,web apps">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <script src="css/jquery.min.js"></script>
+    <script src="css/popper.min.js"></script>
+    <script src="css/bootstrap.min.js"></script>
+    <style>
+        .mySlides {
+            display: none;
+        }
+    </style>
+    <!-- custom css -->
+    <link href="css/style.css" rel="stylesheet">
+    <link href="css/responsive.css" rel="stylesheet">
+
+    <!-- fontawesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+    <!-- animation -->
+    <link href="css/animate.min.css" rel="stylesheet">
+    <script src="css/wow.min.js"></script>
+    <script>
+        new WOW().init();
+    </script>
+    <script>
+        var slideIndex = 1;
+
+        showDivs(slideIndex);
+
+        function plusDivs(n) {
+            showDivs(slideIndex += n);
+        }
+
+        function showDivs(n) {
+            var i;
+
+            var x = document.getElementsByClassName("mySlides");
+            if (n > x.length) { slideIndex = 1 }
+            if (n < 1) { slideIndex = x.length }
+            for (i = 0; i < x.length; i++) {
+                x[i].style.display = "none";
+            }
+            x[slideIndex - 1].style.display = "block";
+        }
+    </script>
+    <!-- Facebook Pixel Code -->
+    <script>
+        !function (f, b, e, v, n, t, s) {
+            if (f.fbq) return; n = f.fbq = function () {
+                n.callMethod ?
+                    n.callMethod.apply(n, arguments) : n.queue.push(arguments)
+            };
+            if (!f._fbq) f._fbq = n; n.push = n; n.loaded = !0; n.version = '2.0';
+            n.queue = []; t = b.createElement(e); t.async = !0;
+            t.src = v; s = b.getElementsByTagName(e)[0];
+            s.parentNode.insertBefore(t, s)
+        }(window, document, 'script',
+            'https://connect.facebook.net/en_US/fbevents.js');
+        fbq('init', '1058328880878051');
+        fbq('track', 'PageView');
+    </script>
+    <noscript><img height="1" width="1" style="display:none"
+            src="https://www.facebook.com/tr?id=1058328880878051&ev=PageView&noscript=1" /></noscript>
+    <!-- End Facebook Pixel Code -->
+    <script>
+        $(function () {
+            $("#header").load("header.html");
+            $("#footer").load("footer.html");
+        });
+    </script>
+
+</head>
+
+<body>
+    <div id="header"></div>
+
+    <!-- =-==- page banner -==-=-=-=- -->
+
+    <section class="about-banner"
+        style="background-image: radial-gradient( circle 610px at 5.2% 51.6%,  rgba(5,8,114,1) 0%, rgba(7,3,53,1) 97.5% );  height: 400px;">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12">
+                    <h1>Progressive Web App Development </h1>
+                    <p>
+
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- -=-=-=-=-=-=- content part -=---=-=-=--=- -->
+
+
+    <section class="service-main">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12">
+                    <h2>
+                        <div class="title-style"></div>
+                        Step by <span>Step</span>
+                    </h2>
+                </div>
+            </div>
+            <div class="row mt-4">
+
+                <div class="col-lg-6 animated fadeInUp wow">
+                    <div class="s-icon">
+                        <img src="img/sf/setting.png" />
+                    </div>
+                    <div class="s-content">
+                        <strong>Planning</strong>
+                        <p>
+                            Our staff looks at your specifications and goals, considers your demands, and develops a
+                            draught plan for your approval.
+                        </p>
+                    </div>
+                </div>
+                <div class="col-lg-6 animated fadeInUp wow">
+                    <div class="s-icon">
+                        <img src="img/a_w_c.png" />
+                    </div>
+                    <div class="s-content">
+                        <strong>Designing</strong>
+                        <p>
+                            During the design process, everything from an effective framework to an intuitive interface
+                            is drafted, looked at, assessed, and approved.
+                        </p>
+                    </div>
+                </div>
+                <div class="col-lg-6 animated fadeInUp wow">
+                    <div class="s-icon">
+                        <img src="img/Paw.png" />
+                    </div>
+                    <div class="s-content">
+                        <strong>Defining</strong>
+                        <p>
+                            We carry out background checks, get your approval on features, establish deadlines, conduct
+                            feasibility tests, and complete the design.
+                        </p>
+                    </div>
+                </div>
+                <div class="col-lg-6 animated fadeInUp wow">
+                    <div class="s-icon">
+                        <img src="img/si-1.png" />
+                    </div>
+                    <div class="s-content">
+                        <strong>Building</strong>
+                        <p>
+                            Our programmers, graphic designers, and management team put in a lot of effort to make sure
+                            your software is as effective as possible.
+                    </div>
+                </div>
+                <div class="col-lg-6 animated fadeInUp wow">
+                    <div class="s-icon">
+                        <img src="img/report1.png" />
+                    </div>
+                    <div class="s-content">
+                        <strong>Testing</strong>
+                        <p>
+                            We use a variety of tests to examine the software's functionality and security. Test-driven
+                            development is what we do.
+                        </p>
+                    </div>
+                </div>
+                <div class="col-lg-6 animated fadeInUp wow">
+                    <div class="s-icon">
+                        <img src="img/sf/computer_view.png" />
+                    </div>
+                    <div class="s-content">
+                        <strong>Deployment &amp; Maintenance</strong>
+                        <p>
+                            After receiving your approval, the programme is distributed to the environment you choose.
+                            All rights to the customised solution are now yours. We strive to make all maintenance
+                            simple enough for your own personnel to complete, and we offer continuing maintenance for
+                            more complicated and/or expansive programmes.
+                        </p>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+
+    <!-- =--=-=-=-= footer -==-=-=-=--= -->
+    <div id="footer"></div>
+
+    <script type="text/javascript">
+        piAId = '824513';
+        piCId = '97325';
+        piHostname = 'pi.pardot.com';
+
+        (function () {
+            function async_load() {
+                var s = document.createElement('script'); s.type = 'text/javascript';
+                s.src = ('https:' == document.location.protocol ? 'https://pi' : 'http://cdn') + '.pardot.com/pd.js';
+                var c = document.getElementsByTagName('script')[0]; c.parentNode.insertBefore(s, c);
+            }
+            if (window.attachEvent) { window.attachEvent('onload', async_load); }
+            else { window.addEventListener('load', async_load, false); }
+        })();
+    </script>
+
+</body>
+
+</html>

@@ -1,0 +1,246 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Contact - Nanostuffs</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+     <link href="css/bootstrap.min.css" rel="stylesheet">
+ <script src="css/jquery.min.js"></script>
+   <script src="css/popper.min.js"></script>
+ <script src="css/bootstrap.min.js"></script> 
+  <style>
+.mySlides {display:none;}
+	</style>
+  <!-- custom css -->
+  <link href="css/style.css" rel="stylesheet">
+  <link href="css/responsive.css" rel="stylesheet">
+
+  <!-- fontawesome -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+  <!-- animation -->
+  <link href="css/animate.min.css" rel="stylesheet">
+   <script src="css/wow.min.js"></script>
+  <script>
+    new WOW().init();
+  </script>
+<script>
+var slideIndex = 1;
+
+showDivs(slideIndex);
+
+function plusDivs(n) {
+  showDivs(slideIndex += n);
+}
+
+function showDivs(n) {
+  var i;
+
+  var x = document.getElementsByClassName("mySlides");
+  if (n > x.length) {slideIndex = 1}
+  if (n < 1) {slideIndex = x.length}
+  for (i = 0; i < x.length; i++) {
+    x[i].style.display = "none";  
+  }
+  x[slideIndex-1].style.display = "block";  
+}
+</script>
+<!-- Facebook Pixel Code -->
+<script>
+ !function(f,b,e,v,n,t,s)
+ {if(f.fbq)return;n=f.fbq=function(){n.callMethod?
+ n.callMethod.apply(n,arguments):n.queue.push(arguments)};
+ if(!f._fbq)f._fbq=n;n.push=n;n.loaded=!0;n.version='2.0';
+ n.queue=[];t=b.createElement(e);t.async=!0;
+ t.src=v;s=b.getElementsByTagName(e)[0];
+ s.parentNode.insertBefore(t,s)}(window, document,'script',
+ 'https://connect.facebook.net/en_US/fbevents.js');
+ fbq('init', '1058328880878051');
+ fbq('track', 'PageView');
+</script>
+<noscript><img height="1" width="1" style="display:none"
+ src="https://www.facebook.com/tr?id=1058328880878051&ev=PageView&noscript=1"
+/></noscript>
+<!-- End Facebook Pixel Code -->
+<script> 
+$(function(){
+  $("#header").load("header.html"); 
+  $("#footer").load("footer.html"); 
+});
+</script> 
+
+</head>
+
+<body>
+<div id="header"></div>
+
+<!-- =-==- banner -==-=-=-=- -->
+<section class="about-banner" style="background-image:url(img/about-bg.png);">
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-12">
+        <h1>Contact Us</h1>        
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- -=-=-=-=-=-=- content part -=---=-=-=--=- -->
+<section class="contact">
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-6">
+        <form class="needs-validation" action="https://webto.salesforce.com/servlet/servlet.WebToLead?encoding=UTF-8" method="POST">
+			<input type=hidden name="oid" value="00D61000000HRWf">
+			<input type=hidden name="retURL" value="http://www.nanostuffs.com/thankyou.html">
+			<input type=hidden name="company" value="-">
+			<input type=hidden name="lead_source" value="Website - Nano - Contact Us">
+			
+          <h5>Contact Form</h5> 
+          <div class="form-group">            
+            <input type="text" class="form-control" id="last_name" placeholder="Enter Your Name" name="last_name" required>
+            <div class="valid-feedback">Valid.</div>
+            <div class="invalid-feedback">Please fill out this field.</div>
+          </div>         
+          <div class="form-group">            
+            <input type="tel" class="form-control" id="phone" name="phone" placeholder="Enter Your Mobile Number" required>
+            <div class="valid-feedback">Valid.</div>
+            <div class="invalid-feedback">Please fill out this field.</div>
+          </div>
+          <div class="form-group">            
+            <input type="email" class="form-control" id="email" placeholder="Enter Your Email" name="email" required>
+            <div class="valid-feedback">Valid.</div>
+            <div class="invalid-feedback">Please fill out this field.</div>
+          </div>
+          <div class="form-group">            
+            <textarea class="form-control" rows="5" id="description" name="description" placeholder="Type your message" required></textarea>
+          </div>       
+          <button type="submit" class="btn" a href=""> Send</button>
+        </form>
+      </div>
+      <div class="col-lg-6">
+	  <form class="needs-validation" id="form">
+	  <h5 align="center"><strong style="color: #2482bf;">
+            Contact Information
+          </strong></h5>
+		   <div class="col-lg-12 animated fadeInUp wow">
+        <div class="address-details">
+          <strong>USA Office</strong>
+          
+              <i class="fa fa-map-marker"></i>
+              <p>Digitek Software, Inc.<br />650 Radio Drive Lewis Center, OH 43035. <br />United States.</p>
+        </div>
+      </div>
+		 <div class="col-lg-12 animated fadeInUp wow">
+        <div class="address-details">
+          <strong>Pune Office</strong>
+          
+              <i class="fa fa-map-marker"></i>
+              <p>405 & 406, Suyog Center, <br />Jawaharlal Nehru Road, Gultekdi, Market Yard. <br />Pune - 411037. Maharashtra, India.</p>
+            
+        </div>
+      </div>
+	   <div class="col-lg-12 animated fadeInUp wow">
+        <div class="address-details">
+          <strong>Mumbai Office</strong>
+          
+              <i class="fa fa-map-marker"></i>
+              <p>505/506, Crescent Business Park, <br />Near Saki Naka Telephone Exchange, <br />Andheri-Kurla Road, Saki Naka, <br />Andheri (E), Mumbai - 400072. <br />Maharashtra, India.</p>
+        </div>
+      </div>
+	  
+	   <div class="col-lg-12 animated fadeInUp wow">
+	  <div class="address-details">
+            <a href="mailto: info@nanostuffs.com">
+              <i class="fa fa-envelope"></i>
+              <p>info@nanostuffs.com</p>
+            </a>
+          </div></div>
+		   <div class="col-lg-12 animated fadeInUp wow">
+          <div class="contact-social">
+            <a href="https://www.facebook.com/nanostuffs"><i class="fa fa-facebook"></i></a>
+        <a href="https://twitter.com/nanostuffs"><i class="fa fa-twitter"></i></a>
+        <a href="http://www.linkedin.com/company/nanostuffs-technologies"><i class="fa fa-google-plus"></i></a>
+          </div></div>
+	  </form>
+    	<!--        <div class="address">
+          
+		  
+          <div class="address-details">
+            <a href="#" target="_blank">
+              <i class="fa fa-map-marker"></i>
+              <p>405, Suyog Center, Jawaharlal Nehru Road, Gultekdi, Market Yard. Pune,Maharashtra,411037</p>
+            </a>
+			<a href="#" target="_blank">
+              <i class="fa fa-map-marker"></i>
+              <p>505/506, Crescent Business Park, Near Saki Naka Telephone Exchange, Andheri-Kurla Road, Saki Naka, Andheri (E), Mumbai - 400072.</p>
+            </a>
+			 <a href="#" target="_blank">
+              <i class="fa fa-map-marker"></i>
+              <p>Digitek Software, Inc. 650 Radio Drive Lewis Center, OH 43035</p>
+            </a>
+          </div>
+		  
+	      <div class="address-details">
+            <a href="#" target="_blank">
+              <i class="fa fa-map-marker"></i>
+              <p>Digitek Software, Inc. 650 Radio Drive Lewis Center, OH 43035</p>
+            </a>
+          </div>
+		  
+		  <div class="address-details">
+            <a href="#" target="_blank">
+              <i class="fa fa-map-marker"></i>
+              <p>505/506, Crescent Business Park, Near Saki Naka Telephone Exchange, Andheri-Kurla Road, Saki Naka, Andheri (E), Mumbai - 400072.</p>
+            </a>
+          </div>
+ <div class="address-details">
+            <a href="tel: +44 7700 900877">
+              <i class="fa fa-phone"></i>
+              <p>1-888-764-8875</p>
+            </a>
+          </div>
+          <div class="address-details">
+            <a href="mailto: info@nanostuffs.com">
+              <i class="fa fa-envelope"></i>
+              <p>info@nanostuffs.com</p>
+            </a>
+          </div>
+          <div class="contact-social">
+            <a href="https://www.facebook.com/nanostuffs"><i class="fa fa-facebook"></i></a>
+        <a href="https://twitter.com/nanostuffs"><i class="fa fa-twitter"></i></a>
+        <a href="http://www.linkedin.com/company/nanostuffs-technologies"><i class="fa fa-google-plus"></i></a>
+          </div>
+        </div>-->
+      </div>
+    </div>
+  </div>
+</section>
+<!-- =--=-=-=-= footer -==-=-=-=--= -->
+<div id="footer"></div>
+
+<script>
+/*
+  // Disable form submissions if there are invalid fields
+  (function() {
+    'use strict';
+    window.addEventListener('load', function() {
+      // Get the forms we want to add validation styles to
+      var forms = document.getElementsByClassName('needs-validation');
+      // Loop over them and prevent submission
+      var validation = Array.prototype.filter.call(forms, function(form) {
+        form.addEventListener('submit', function(event) {
+          if (form.checkValidity() === false) {
+            event.preventDefault();
+            event.stopPropagation();
+          }
+          form.classList.add('was-validated');
+        }, false);
+      });
+    }, false);
+  })();
+  
+  */
+</script>
+</body>
+</html>

@@ -1,0 +1,7 @@
+https://nanostuffs.com/blog/wp-admin/
+nanostuffs
+admin
+
+https://nanostuffs.com/phpMyAdmin/
+root
+Nano4545#
