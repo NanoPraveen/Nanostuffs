@@ -1,16 +1,19 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <title>Career-Nanostuffs</title>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-   <link href="css/bootstrap.min.css" rel="stylesheet">
- <script src="css/jquery.min.js"></script>
-   <script src="css/popper.min.js"></script>
- <script src="css/bootstrap.min.js"></script> 
+  <link href="css/bootstrap.min.css" rel="stylesheet">
+  <script src="css/jquery.min.js"></script>
+  <script src="css/popper.min.js"></script>
+  <script src="css/bootstrap.min.js"></script>
   <style>
-.mySlides {display:none;}
-	</style>
+    .mySlides {
+      display: none;
+    }
+  </style>
   <!-- custom css -->
   <link href="css/style.css" rel="stylesheet">
   <link href="css/responsive.css" rel="stylesheet">
@@ -20,234 +23,345 @@
 
   <!-- animation -->
   <link href="css/animate.min.css" rel="stylesheet">
-   <script src="css/wow.min.js"></script>
+  <script src="css/wow.min.js"></script>
   <script>
     new WOW().init();
   </script>
-<script>
-var slideIndex = 1;
+  <script>
+    var slideIndex = 1;
 
-showDivs(slideIndex);
+    showDivs(slideIndex);
 
-function plusDivs(n) {
-  showDivs(slideIndex += n);
-}
+    function plusDivs(n) {
+      showDivs(slideIndex += n);
+    }
 
-function showDivs(n) {
-  var i;
+    function showDivs(n) {
+      var i;
 
-  var x = document.getElementsByClassName("mySlides");
-  if (n > x.length) {slideIndex = 1}
-  if (n < 1) {slideIndex = x.length}
-  for (i = 0; i < x.length; i++) {
-    x[i].style.display = "none";  
-  }
-  x[slideIndex-1].style.display = "block";  
-}
-</script>
-<!-- Facebook Pixel Code -->
-<script>
- !function(f,b,e,v,n,t,s)
- {if(f.fbq)return;n=f.fbq=function(){n.callMethod?
- n.callMethod.apply(n,arguments):n.queue.push(arguments)};
- if(!f._fbq)f._fbq=n;n.push=n;n.loaded=!0;n.version='2.0';
- n.queue=[];t=b.createElement(e);t.async=!0;
- t.src=v;s=b.getElementsByTagName(e)[0];
- s.parentNode.insertBefore(t,s)}(window, document,'script',
- 'https://connect.facebook.net/en_US/fbevents.js');
- fbq('init', '1058328880878051');
- fbq('track', 'PageView');
-</script>
-<noscript><img height="1" width="1" style="display:none"
- src="https://www.facebook.com/tr?id=1058328880878051&ev=PageView&noscript=1"
-/></noscript>
-<!-- End Facebook Pixel Code -->
-<script> 
-$(function(){
-  $("#header").load("header.html"); 
-  $("#footer").load("footer.html"); 
-});
-</script> 
+      var x = document.getElementsByClassName("mySlides");
+      if (n > x.length) { slideIndex = 1 }
+      if (n < 1) { slideIndex = x.length }
+      for (i = 0; i < x.length; i++) {
+        x[i].style.display = "none";
+      }
+      x[slideIndex - 1].style.display = "block";
+    }
+  </script>
+  <!-- Facebook Pixel Code -->
+  <script>
+    !function (f, b, e, v, n, t, s) {
+      if (f.fbq) return; n = f.fbq = function () {
+        n.callMethod ?
+          n.callMethod.apply(n, arguments) : n.queue.push(arguments)
+      };
+      if (!f._fbq) f._fbq = n; n.push = n; n.loaded = !0; n.version = '2.0';
+      n.queue = []; t = b.createElement(e); t.async = !0;
+      t.src = v; s = b.getElementsByTagName(e)[0];
+      s.parentNode.insertBefore(t, s)
+    }(window, document, 'script',
+      'https://connect.facebook.net/en_US/fbevents.js');
+    fbq('init', '1058328880878051');
+    fbq('track', 'PageView');
+  </script>
+  <noscript><img height="1" width="1" style="display:none"
+      src="https://www.facebook.com/tr?id=1058328880878051&ev=PageView&noscript=1" /></noscript>
+  <!-- End Facebook Pixel Code -->
+  <script>
+    $(function () {
+      $("#header").load("header.html");
+      $("#footer").load("footer.html");
+    });
+  </script>
 
 </head>
 
 <body>
-<div id="header"></div>
 
+  <div id="header"></div>
 
-
-<!-- =-==- banner -==-=-=-=- -->
-<section class="about-banner" style="background-image:url(img/about-bg.png);">
-  <div class="container">
-    <div class="row">
-      <div class="col-lg-12">
-        <h1>Career</h1>
+  <!-- =-==- banner -==-=-=-=- -->
+  <section class="about-banner" style="background-image:url(img/about-bg.png); height: 300px;">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-12">
+          <h1>CAREER OPPORTUNITIES</h1>
+        </div>
       </div>
     </div>
-  </div>
-</section>
+  </section>
 
-<!-- -=-=-=-=-=-=- content part -=---=-=-=--=- -->
-<section class="career-details">
-  <div class="container">
-    <div class="row justify-content-center">
-      <div class="col-lg-5">
-        <img src="img/career.png" class="w-100" />
-      </div>
-      <div class="col-lg-5">
-       
-      </div>
-    </div>
-  </div>
-</section>
-<section class="opening">
-  <div class="container">
-    <div class="row">
-      <div class="col-lg-12">
-        <h2>
-          <div class="title-style"></div>
-          CURRENT OPENINGS 
-        </h2>
-      </div>
-    </div>
-    <div class="row">
-	 <div class="col-lg-6">
-        <div class="open-detail">
-            <h5><strong>Sr. Salesforce Developer</strong></h5>
-            <h6><strong>Key Skills</strong></h6>
-            <p>
-             salesforce,visualforce,SFDC,customization,written communication,Salesforce Lighting,Salesforce Developer,agile development,Salesforce Consultant,apex,sfdc consultant.
-            </p>
-            <h6><strong>Experience</strong></h6>
-            <p>
-              3-5 Year
-            </p>
-            <h6><strong>Education-</strong></h6>
-            <p>
-             B.Tech/B.E. Computers, BCA - Computers MCA -Computers
-            </p>
-			<h6><strong>Employment Type</strong></h6>
-            <p>
-            Full Time
-            </p>
-			<h6><strong>Salary</strong></h6>
-            <p>
-             INR 6,00,000 - 12,00,000 PA.
-            </p>
-			<h6><strong>Location</strong></h6>
-            <p>
-             Pune
-            </p>
-          </div>
-      </div>
-      <div class="col-lg-6">
-        <div class="open-detail">
-            <h5><strong>Sr. Web Developer</strong></h5>
-            <h6><strong>Key Skills</strong></h6>
-            <p>
-             Angularjs, css, webdesigner, php, html, web designing,javascript
-            </p>
-            <h6><strong>Experience</strong></h6>
-            <p>
-              3-5 Year
-            </p>
-            <h6><strong>Education-</strong></h6>
-            <p>
-				B.Tech/B.E. Computers, BCA - Computers MCA -Computers
-            </p>
-			<h6><strong>Employment Type</strong></h6>
-            <p>
-            Full Time
-            </p>
-			<h6><strong>Salary</strong></h6>
-            <p>
-             INR 6,00,000 - 12,00,000 PA.
-            </p>
-			<h6><strong>Location</strong></h6>
-            <p>
-             Pune
-            </p>
-          </div>
-      </div>
-  <!--    <div class="col-lg-6">
-        <div class="open-detail">
-            <h5><strong>Fresher Java, Android Developer </strong></h5>
-            <h6><strong>Key Skills</strong></h6>
-            <p>
-             Java,Android
-            </p>
-            <h6><strong>Experience</strong></h6>
-            <p>
-              0-5 Year
-            </p>
-            <h6><strong>Education-</strong></h6>
-            <p>
-				B.Tech/B.E. Computers, BCA - Computers MCA -Computers
-            </p>
-			<h6><strong>Employment Type</strong></h6>
-            <p>
-            Full Time
-            </p>
-			<h6><strong>Salary</strong></h6>
-            <p>
-              1,75,000 - 3,00,000 PA.
-            </p>
-			<h6><strong>Location</strong></h6>
-            <p>
-             Pune
-            </p>
-          </div>
-      </div>
-     
-      <div class="col-lg-6">
-        <div class="open-detail">
-            <h5><strong>Fresher IOS Developer </strong></h5>
-            <h6><strong>Key Skills</strong></h6>
-            <p>
-             IOS
-            <h6><strong>Experience</strong></h6>
-            <p>
-              0-5 Year
-            </p>
-            <h6><strong>Education-</strong></h6>
-            <p>
-				B.Tech/B.E. Computers, BCA - Computers MCA -Computers
-            </p>
-			<h6><strong>Employment Type</strong></h6>
-            <p>
-            Full Time
-            </p>
-			<h6><strong>Salary</strong></h6>
-            <p>
-              1,75,000 - 3,00,000 PA.
-            </p>
-			<h6><strong>Location</strong></h6>
-            <p>
-             Pune
-            </p>
-          </div>
-      </div>-->
-    </div>
-  </div>
-</section>
-<!-- =--=-=-=-= footer -==-=-=-=--= -->
-<div id="footer"></div>
+  <!-- -=-=-=-=-=-=- content part -=---=-=-=--=- -->
+  <section class="career-details">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-12">
 
-<script type="text/javascript">
-piAId = '824513';
-piCId = '97325';
-piHostname = 'pi.pardot.com';
+          <div class="row justify-content-center">
+            <h2> <strong style="color: #2482bf;font-family: 'Aspira-Bold';font-size: 34px;">LIFE AT NANOSTUFFS</strong>
+            </h2>
+            <div class="row justify-content-center">
+              <b style="font-family: 'Aspira-Bold'; font-size: 18px; margin-top: 30px;">
+                We strongly believe that it takes an entire team to create something big. Here at Nanostuffs, we are
+                building a culture where ambitious people (like you) can join us to work hard together, laugh together,
+                achieve together, learn together and grow together. If you are ready to make your career which adds up
+                to something meaningful to your experience, then yes you've come to the right place. Join us now!
+              </b>
+            </div>
+          </div>
 
-(function() {
-function async_load(){
-var s = document.createElement('script'); s.type = 'text/javascript';
-s.src = ('https:' == document.location.protocol ? 'https://pi' : 'http://cdn') + '.pardot.com/pd.js';
-var c = document.getElementsByTagName('script')[0]; c.parentNode.insertBefore(s, c);
-}
-if(window.attachEvent) { window.attachEvent('onload', async_load); }
-else { window.addEventListener('load', async_load, false); }
-})();
-</script>
+        </div>
+      </div>
+  </section>
+
+
+
+
+  <section class="opening">
+    <div class="container">
+
+      <div class="row">
+        <div class="col-lg-12">
+          <h2>
+            <div class="title-style"></div> CURRENT OPENINGS
+          </h2>
+        </div>
+      </div>
+
+      <br><br>
+
+      <div class="row mb-4">
+        <div class="col-lg-12">
+          <div class="card">
+            <div class="card-header" style="font-size:25px;font-family: 'Aspira-Bold';background-color:#bcc1c2;">
+              <h4><b>Full Stack - MERN</b></h4>
+            </div>
+            <div class="card-body">
+              <h5 class="card-title">
+                <b>Senior Software Engineer</b>
+              </h5>
+              <b>Exp:</b>: 8+ relevant experience <br>
+              <b>Location:</b> Work from Pune Office/Work from Home<br>
+              <p class="card-text">
+                <b>Job requirements:</b>
+              <ul>
+                <li>Worked in MERN (MongoDB, Express, React, Node) stack proof of concept (poc)/ project / live
+                  project.</li>
+                <li>Implement customer-facing features on the App/Website.</li>
+                <li>Proficiency with Typescript/JavaScript, HTML5, CSS3.</li>
+                <li>Build reusable, high quality libraries which can be used across multiple projects.</li>
+                <li>Deploying software tools, processes and metrics.</li>
+                <li>Maintaining and upgrading existing systems.</li>
+                <li>Strong focus on customer experience Skills React Native, Node.js, Angular.</li>
+                <li>Advantage to have prior experience in React Native/Flutter/Node.js.</li>
+                <li>Collaborate with cross-functional teams to define, design and ship new features..</li>
+                <li>Ensure the best possible performance, quality and responsiveness of the web application.</li>
+                <li>Familiarity with RESTful APIs to connect to back-end services and data parsing using XML, JSON.
+                </li>
+              </ul>
+              </p>
+              <a href="mailto:recruitment@nanostuffs.com?subject=FullStack (MERN) - Reference Nanostuffs Website"
+                class="btn btn-primary">Apply Here</a>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="row mb-4">
+        <div class="col-lg-12">
+          <div class="card">
+            <div class="card-header" style="font-size:25px;font-family: 'Aspira-Bold';background-color:#bcc1c2;">
+              <h4><b>IOS</b></h4>
+            </div>
+            <div class="card-body">
+              <h5 class="card-title"><b>Senior Software Engineer</b></h5>
+              <b>Exp: : 8+ relevant experience</b><br>
+              <b>Location:</b> Work from Pune Office/Work from Home<br>
+              <p class="card-text"><b>Job responsibilities:</b><br>
+              <ul>
+                <li>Design and build applications for the iOS platform.</li>
+                <li>Ensure the performance, quality, and responsiveness of applications.</li>
+                <li>Collaborate with a team to define, design, and ship new features.</li>
+                <li>Identify and correct bottlenecks and fix bugs.</li>
+                <li>Help maintain code quality, organization, and automatization.</li>
+              </ul>
+              </p>
+              <p class="card-text"><b>Job requirements:</b><br>
+              <ul>
+                <li>Proficient with Objective-C or Latest Swift, and Cocoa Touch.</li>
+                <li>Experience with iOS frameworks such as Core Data, Core Animation, etc.</li>
+                <li>Experience with offline storage, threading, and performance tuning.</li>
+                <li>Familiarity with RESTful APIs to connect iOS applications to back-end services.</li>
+                <li>Knowledge of other web technologies and UI/UX standards.</li>
+                <li>Understanding of Apple’s design principles and interface guidelines.</li>
+                <li>Knowledge of low-level C-based libraries is preferred.</li>
+                <li>Experience with performance and memory tuning with tools.</li>
+                <li>Familiarity with cloud message APIs and push notifications.</li>
+                <li>Knack for benchmarking and optimization.</li>
+                <li>Proficient understanding of code versioning tools.</li>
+                <li>Familiarity with continuous integration.</li>
+              </ul>
+              </p>
+              <a href="mailto:recruitment@nanostuffs.com?subject=IOS - Reference Nanostuffs Website"
+                class="btn btn-primary">Apply Here</a>
+            </div>
+          </div>
+        </div>
+
+      </div>
+
+      <div class="row mb-4">
+        <div class="col-lg-12">
+          <div class="card">
+            <div class="card-header" style="font-size:25px;font-family: 'Aspira-Bold';background-color:#bcc1c2;">
+              <h4><b>Android</b></h4>
+            </div>
+            <div class="card-body">
+              <h5 class="card-title"><b>Senior Software Engineer</b></h5>
+              <b>Exp: : 8+ relevant experience</b><br>
+              <b>Location:</b> Work from Pune Office/Work from Home<br>
+              <p class="card-text"><b>Job responsibilities:</b>
+              <ul>
+                <li>Design and build advanced applications for the Android platform</li>
+                <li>Collaborate with cross-functional teams to define, design, and ship new features</li>
+                <li>Work with outside APIs</li>
+                <li>Unit-test code for robustness, including edge cases, usability, and general reliability</li>
+                <li>Work on bug fixing and improving application performance</li>
+                <li>Continuously discover, evaluate, and implement new technologies to maximize development efficiency
+                </li>
+
+              </ul>
+              </p>
+              <p class="card-text"><b>Job requirements:</b><br>
+              <ul>
+                <li>Software development experience and Android skills development</li>
+                <li>Proven working experience in Android app development</li>
+                <li>Have published at least one original Android app</li>
+                <li>Experience with Android SDK</li>
+                <li>Experience working with remote data via REST and JSON</li>
+                <li>Experience with third-party libraries and APIs</li>
+                <li>Working knowledge of the general mobile landscape, architectures, trends, and emerging technologies
+                </li>
+                <li>Solid understanding of the full mobile development life cycle.</li>
+
+              </ul>
+              </p>
+              <a href="mailto:recruitment@nanostuffs.com?subject=Android - Reference Nanostuffs Website"
+                class="btn btn-primary">Apply Here</a>
+            </div>
+          </div>
+        </div>
+
+      </div>
+
+      <div class="row mb-4">
+        <div class="col-lg-12">
+          <div class="card">
+            <div class="card-header" style="font-size:25px;font-family: 'Aspira-Bold';background-color:#bcc1c2;">
+              <h4><b>Blockchain</b></h4>
+            </div>
+            <div class="card-body">
+              <h5 class="card-title"><b>Senior Software Engineer </b></h5>
+              <b>Exp:</b> : 8+ years <br>
+              <b>Location: </b>Work from Pune Office/Work from Home<br>
+              <p class="card-text"><b>Job requirements:</b>
+              <ul>
+                <li>Advanced proficiency in programming languages, such as C++, Java, and Python.</li>
+                <li>Extensive experience in back-end development, algorithms, and data structures.</li>
+                <li>Knowledge of cryptography and blockchain protocols.</li>
+                <li>In-depth knowledge of best practices in blockchain management and data protection.</li>
+                <li>Advanced analytical and problem-solving skills.</li>
+                <li>Superb organizational skills and keen attention to detail.</li>
+                <li>Good communication and collaboration abilities.</li>
+              </ul>
+              </p>
+              <a href="mailto:recruitment@nanostuffs.com?subject=Blockchain Developer - Reference Nanostuffs Website"
+                class="btn btn-primary">Apply Here</a>
+            </div>
+          </div>
+        </div>
+
+      </div>
+
+      <div class="row mb-4">
+        <div class="col-lg-12">
+          <div class="card">
+            <div class="card-header" style="font-size:25px;font-family: 'Aspira-Bold';background-color:#bcc1c2;">
+              <h4><b>Salesforce.com</b></h4>
+            </div>
+            <div class="card-body">
+              <h5 class="card-title"><b>Senior Software Engineer </b></h5>
+              <b>Exp:</b> : 8+ years <br>
+              <b>Location: </b>Work from Pune Office/Work from Home<br>
+              <p class="card-text"><b>Job responsibilities:</b><br>
+              <ul>
+                <li>Salesforce.com Admin & Development Tasks </li>
+                <li>Sales Cloud, Service Cloud, Communities, Platform, etc. cross product projects</li>
+                <li>100% Lightning Development</li>
+                <li>External Integrations</li>
+              </ul>
+              </p>
+              <p class="card-text"><b>Job requirements:</b><br>
+              <ul>
+                <li>Strong knowledge of programming skills </li>
+                <li>Known to best practices </li>
+                <li>Able to speak good English, with us most of the resources are in direct touch with the customer
+                </li>
+                <li>Certification would be plus, not mandatory </li>
+              </ul>
+              </p>
+
+              <a href="mailto:recruitment@nanostuffs.com?subject=Salesforce - Reference Nanostuffs Website"
+                class="btn btn-primary">Apply Here</a>
+            </div>
+          </div>
+        </div>
+
+      </div>
+
+    </div>
+
+  </section>
+
+  <section class="career-details">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-12">
+
+          <div class="row justify-content-center">
+            <div class="row justify-content-center">
+              <b style="font-family: 'Aspira-Bold'; font-size: 18px; margin-top: 30px;">
+                We strongly believe that it takes an entire team to create something big. Here at Nanostuffs, we are
+                building a culture where ambitious people (like you) can join us to work hard together, laugh together,
+                achieve together, learn together and grow together. If you are ready to make your career which adds up
+                to something meaningful to your experience, then yes you've come to the right place. Join us now!
+              </b>
+            </div>
+          </div>
+
+        </div>
+      </div>
+  </section>
+
+  <!-- =--=-=-=-= footer -==-=-=-=--= -->
+  <div id="footer"></div>
+
+  <script type="text/javascript">
+    piAId = '824513';
+    piCId = '97325';
+    piHostname = 'pi.pardot.com';
+
+    (function () {
+      function async_load() {
+        var s = document.createElement('script'); s.type = 'text/javascript';
+        s.src = ('https:' == document.location.protocol ? 'https://pi' : 'http://cdn') + '.pardot.com/pd.js';
+        var c = document.getElementsByTagName('script')[0]; c.parentNode.insertBefore(s, c);
+      }
+      if (window.attachEvent) { window.attachEvent('onload', async_load); }
+      else { window.addEventListener('load', async_load, false); }
+    })();
+  </script>
 
 </body>
+
 </html>
