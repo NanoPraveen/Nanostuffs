@@ -84,3 +84,9 @@
         font-size: 1em;
     }
 }
+
+.nav-pills .nav-link.active,
+.nav-pills .show>.nav-link {
+    color: #fff;
+    background-color: #695e8a;
+}
